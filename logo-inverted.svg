@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#1a3a3a"/>
+  
+  <g transform="translate(600, 400)">
+    <g stroke="#FAFAF8" stroke-width="3" fill="none">
+      <path d="M 0,-180 L 180,-55 L 110,145 L -110,145 L -180,-55 Z" stroke="#FAFAF8" stroke-width="2.5"/>
+    </g>
+    
+    <g fill="#FAFAF8">
+      <polygon points="-85,-120 -45,-20 -10,-60 25,-5 50,-80" fill="#FAFAF8"/>
+      <line x1="-80" y1="-100" x2="-50" y2="-40" stroke="#FAFAF8" stroke-width="1.5"/>
+      <line x1="-50" y1="-40" x2="-15" y2="-70" stroke="#FAFAF8" stroke-width="1.5"/>
+    </g>
+    
+    <g fill="#FAFAF8">
+      <polygon points="0,-50 45,-25 45,25 0,50 -45,25 -45,-25" fill="#FAFAF8"/>
+      <polygon points="0,-30 27,-15 27,15 0,30 -27,15 -27,-15" fill="#1a3a3a"/>
+    </g>
+    
+    <g fill="#FAFAF8">
+      <polygon points="75,-80 120,-50 100,-10 70,-35" fill="#FAFAF8"/>
+      <polygon points="90,-60 130,-35 115,5 80,-15" fill="#FAFAF8" opacity="0.9"/>
+    </g>
+    
+    <g stroke="#FAFAF8" stroke-width="1.2" fill="none">
+      <line x1="-50" y1="-40" x2="-45" y2="-25"/>
+      <line x1="25" y1="-5" x2="45" y2="-25"/>
+      <line x1="70" y1="-35" x2="45" y2="-25"/>
+    </g>
+    
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#FAFAF8" stroke-width="2"/>
+  </g>
+  
+  <text x="600" y="750" font-family="'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="700" text-anchor="middle" fill="#FAFAF8" letter-spacing="3">OLSEN</text>
+  
+  <text x="600" y="820" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" text-anchor="middle" fill="#FAFAF8" letter-spacing="2">ENTERPRISES</text>
+  
+  <line x1="350" y1="860" x2="850" y2="860" stroke="#FAFAF8" stroke-width="1.5"/>
+</svg>
