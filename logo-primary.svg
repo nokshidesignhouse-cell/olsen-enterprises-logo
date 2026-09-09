@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#FAFAF8"/>
+  
+  <!-- Define gradients and filters -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1f1f;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="subtle-shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- MAIN LOGO MARK (centered) -->
+  <g transform="translate(600, 400)">
+    <!-- Outer geometric frame - Pentagon inspired by Nordic geometry -->
+    <g stroke="#1a3a3a" stroke-width="3" fill="none">
+      <!-- Main structural pentagon (abstract, strong geometry) -->
+      <path d="M 0,-180 L 180,-55 L 110,145 L -110,145 L -180,-55 Z" 
+            stroke="#2d5a52" stroke-width="2" opacity="0.3"/>
+    </g>
+    
+    <!-- Nature Meets Industry Concept -->
+    <!-- Left side: Mountain/Terrain geometry -->
+    <g fill="#1a3a3a">
+      <!-- Mountain peaks - geometric and minimalist -->
+      <polygon points="-85,-120 -45,-20 -10,-60 25,-5 50,-80" fill="#1a3a3a"/>
+      <!-- Subtle forest layers -->
+      <line x1="-80" y1="-100" x2="-50" y2="-40" stroke="#2d5a52" stroke-width="1.5" opacity="0.6"/>
+      <line x1="-50" y1="-40" x2="-15" y2="-70" stroke="#2d5a52" stroke-width="1.5" opacity="0.6"/>
+    </g>
+    
+    <!-- Center: Strong Industrial Geometry -->
+    <g fill="#1a3a3a">
+      <!-- Hexagonal core (strength, structure, industry) -->
+      <polygon points="0,-50 45,-25 45,25 0,50 -45,25 -45,-25" fill="#1a3a3a"/>
+      <!-- Inner hexagon (negative space) -->
+      <polygon points="0,-30 27,-15 27,15 0,30 -27,15 -27,-15" fill="#FAFAF8"/>
+    </g>
+    
+    <!-- Right side: Growth and Forward Movement -->
+    <g fill="#2d5a52" opacity="0.8">
+      <!-- Ascending geometric lines suggesting growth -->
+      <polygon points="75,-80 120,-50 100,-10 70,-35" fill="#2d5a52"/>
+      <polygon points="90,-60 130,-35 115,5 80,-15" fill="#2d5a52" opacity="0.6"/>
+    </g>
+    
+    <!-- Connecting geometric elements (subtle) -->
+    <g stroke="#2d5a52" stroke-width="1" fill="none" opacity="0.4">
+      <line x1="-50" y1="-40" x2="-45" y2="-25"/>
+      <line x1="25" y1="-5" x2="45" y2="-25"/>
+      <line x1="70" y1="-35" x2="45" y2="-25"/>
+    </g>
+    
+    <!-- Outer circle frame (subtle, corporate) -->
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#1a3a3a" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Filter shadow -->
+    <circle cx="0" cy="0" r="155" fill="none" stroke="#1a3a3a" stroke-width="2" filter="url(#subtle-shadow)"/>
+  </g>
+  
+  <!-- COMPANY NAME - OLSEN (prominent) -->
+  <text x="600" y="750" font-family="'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="700" 
+        text-anchor="middle" fill="#1a3a3a" letter-spacing="3">
+    OLSEN
+  </text>
+  
+  <!-- SUBTITLE - ENTERPRISES (secondary, elegant) -->
+  <text x="600" y="820" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" 
+        text-anchor="middle" fill="#2d5a52" letter-spacing="2">
+    ENTERPRISES
+  </text>
+  
+  <!-- Decorative line under text -->
+  <line x1="350" y1="860" x2="850" y2="860" stroke="#2d5a52" stroke-width="1" opacity="0.5"/>
+</svg>
