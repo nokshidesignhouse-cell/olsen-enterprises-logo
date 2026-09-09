@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#FAFAF8"/>
+  
+  <!-- Define gradients -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  
+  <!-- OE MONOGRAM - Nordic Geometric Style -->
+  <g transform="translate(600, 400)">
+    
+    <!-- Outer circle frame -->
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#1a3a3a" stroke-width="3" opacity="0.3"/>
+    
+    <!-- Background shield shape (subtle) -->
+    <path d="M -120,-180 L 120,-180 L 120,80 Q 0,140 -120,80 Z" 
+          fill="none" stroke="#2d5a52" stroke-width="2" opacity="0.2"/>
+    
+    <!-- LETTER O - Geometric hexagon with negative space -->
+    <g transform="translate(-80, 0)">
+      <!-- Outer hexagon -->
+      <polygon points="0,-70 60,-35 60,35 0,70 -60,35 -60,-35" 
+               fill="none" stroke="#1a3a3a" stroke-width="3"/>
+      
+      <!-- Inner hexagon (negative space) - smaller -->
+      <polygon points="0,-42 36,-21 36,21 0,42 -36,21 -36,-21" 
+               fill="#FAFAF8" stroke="none"/>
+      
+      <!-- Subtle geometric pattern inside (Nordic inspired) -->
+      <line x1="-20" y1="-20" x2="20" y2="20" stroke="#2d5a52" stroke-width="1.5" opacity="0.4"/>
+      <line x1="20" y1="-20" x2="-20" y2="20" stroke="#2d5a52" stroke-width="1.5" opacity="0.4"/>
+    </g>
+    
+    <!-- LETTER E - Geometric rectangles (strong, industrial) -->
+    <g transform="translate(80, 0)">
+      <!-- Main vertical line -->
+      <rect x="-15" y="-70" width="30" height="140" fill="#1a3a3a"/>
+      
+      <!-- Horizontal bars (3 lines) -->
+      <!-- Top bar -->
+      <rect x="0" y="-70" width="65" height="20" fill="#1a3a3a"/>
+      
+      <!-- Middle bar -->
+      <rect x="0" y="-5" width="55" height="18" fill="#1a3a3a"/>
+      
+      <!-- Bottom bar -->
+      <rect x="0" y="52" width="65" height="18" fill="#1a3a52"/>
+      
+      <!-- Subtle accent line (forest green) -->
+      <line x1="0" y1="-25" x2="65" y2="-25" stroke="#2d5a52" stroke-width="2" opacity="0.5"/>
+    </g>
+    
+    <!-- Connecting geometric element -->
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#2d5a52" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Shadow effect -->
+    <g filter="url(#shadow)">
+      <polygon points="0,-70 60,-35 60,35 0,70 -60,35 -60,-35" 
+               fill="#1a3a3a" opacity="0.05" transform="translate(-80, 0)"/>
+    </g>
+  </g>
+  
+  <!-- Mark below monogram -->
+  <line x1="300" y1="750" x2="900" y2="750" stroke="#1a3a3a" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Text below -->
+  <text x="600" y="850" font-family="'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" 
+        text-anchor="middle" fill="#1a3a3a" letter-spacing="4">
+    OE MONOGRAM
+  </text>
+  
+  <text x="600" y="920" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="300" 
+        text-anchor="middle" fill="#2d5a52" letter-spacing="2">
+    Sophisticated · Timeless · Strong
+  </text>
+</svg>
